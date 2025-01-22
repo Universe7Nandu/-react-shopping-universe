@@ -35,6 +35,10 @@ npm start
 Nandesh Kalashetti
 
 
+## 🎥 Project Video Tutorial
 
-Citations:
-[1] https://www.youtube.com/watch?v=UQjGZya0ACU
+[Smart Cart: React E-Commerce Platform](https://youtu.be/UQjGZya0ACU "Smart Cart: React E-Commerce Platform Tutorial")
+
+**Watch Full Project Walkthrough**: [Smart Cart - Complete React E-Commerce Tutorial](https://youtu.be/UQjGZya0ACU)
+
+

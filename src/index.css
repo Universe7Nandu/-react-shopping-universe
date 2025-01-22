@@ -1,0 +1,50 @@
+:root {
+  /* Light Theme Colors */
+  --bg-primary: #ffffff;
+  --text-primary: #333333;
+  --bg-secondary: #f4f4f4;
+  --accent-color: #1a06ec;
+}
+
+.dark-theme {
+  /* Dark Theme Colors */
+  --bg-primary: #121212;
+  --text-primary: #ffffff;
+  --bg-secondary: #1e1e1e;
+  --accent-color: #4a90e2;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+.btns {
+  padding: 10px 20px;
+  margin-right: 6px;
+  background: transparent;
+  border: 0.6px solid var(--accent-color);
+  border-radius: 5px;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btns:hover {
+  background-color: var(--accent-color);
+  color: white;
+}
